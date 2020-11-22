@@ -10,7 +10,7 @@ const Map = ({ eventData }) => {
     longitude: -122.8756,
     width: "100vw",
     height: "100vh",
-    zoom: 10,
+    zoom: 5,
   });
   const [locationInfo, setLocationInfo] = useState(null);
 
@@ -23,6 +23,7 @@ const Map = ({ eventData }) => {
           longitude={e.geometries[0].coordinates[0]}
         >
           <button
+            className="fire-button"
             onClick={(e) => {
               console.log(locationInfo);
               e.preventDefault();
