@@ -2,7 +2,6 @@ import React from "react";
 import { Icon } from "@iconify/react";
 import locationIcon from "@iconify/icons-mdi/file-alert";
 
-// const LocationMarker = ({ lat, lng, onClick }) => {
 const LocationMarker = () => {
   return (
     // <div className="location-marker" onClick={onClick}>
