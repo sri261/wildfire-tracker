@@ -14,7 +14,7 @@ body {
 }
 .header {
   padding: 10px;
-  background-color: firebrick;
+  background-color: forestgreen;
   color: white;
   position: fixed;
   top: 0;
@@ -27,6 +27,9 @@ body {
   padding: 0;
   margin: 0;
   text-align: center;
+}
+.header i {
+  color: #961a1b;
 }
 .map {
   width: 100vw;
@@ -41,7 +44,7 @@ body {
 }
 .location-icon {
   font-size: 1rem;
-  color: red;
+  color: #961a1b;
 }
 
 .loader {
